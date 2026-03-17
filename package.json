@@ -1,0 +1,77 @@
+{
+  "name": "@sametozkale/slider-one",
+  "version": "0.1.0",
+  "description": "An animated React slider with tactile motion, dynamic progress, and a floating value label",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:lib": "tsup",
+    "dev": "next dev",
+    "build": "next build",
+    "build:all": "tsup && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pack": "npm run build:lib && npm pack",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "dependencies": {
+    "framer-motion": ">=11",
+    "next": "16.1.6",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "shiki": "^3.22.0"
+  },
+  "peerDependencies": {
+    "framer-motion": ">=11",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "tsup": "^8.0.0",
+    "typescript": "^5",
+    "vitest": "^2",
+    "@testing-library/react": "^16",
+    "jsdom": "^25",
+    "@testing-library/jest-dom": "^6"
+  },
+  "keywords": [
+    "slider",
+    "range",
+    "motion",
+    "react",
+    "tailwind",
+    "component",
+    "input"
+  ],
+  "author": "Samet Ozkale (https://samet.works)",
+  "license": "MIT",
+  "homepage": "https://slider-one.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sametozkale/slider-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sametozkale/slider-one/issues"
+  }
+}

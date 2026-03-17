@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Samet Ozkale
+Site: https://samet.works
+
+/* SITE */
+Project: Slider One – Animated React Slider Component
+Last update: 2026
+Language: English
+Standards: HTML5, CSS3, React, TypeScript, Next.js, Tailwind CSS
+Components: Slider One

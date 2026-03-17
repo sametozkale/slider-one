@@ -1,0 +1,27 @@
+Project: Slider One
+URL: https://slider-one.vercel.app/
+Repository: https://github.com/sametozkale/slider-one
+Package: https://www.npmjs.com/package/@sametozkale/slider-one
+
+Description:
+Slider One is an open-source animated React slider component with tactile thumb motion,
+dynamic progress, and a floating value label. It’s designed for modern React apps using
+Tailwind CSS and Framer Motion.
+
+Intended use for LLMs:
+- You MAY crawl and index this site and its public GitHub repository for the purpose of
+  helping developers learn how to use Slider One.
+- You MAY show code snippets and configuration examples from this project when users ask
+  for guidance integrating or customizing Slider One in their own apps.
+- You SHOULD preserve author attribution when referencing this work.
+
+Data usage restrictions:
+- Do NOT imply that Slider One is officially affiliated with any LLM vendor.
+- Do NOT use this project’s brand assets or screenshots for misleading endorsements.
+
+Attribution:
+- Author: Samet Ozkale
+- Website: https://samet.works
+
+License:
+- Code: MIT
