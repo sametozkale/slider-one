@@ -506,6 +506,7 @@ export function SliderProgress({
   const innerRadius =
     size === "sm" ? "8px" : size === "lg" ? "14px" : "10px";
   const dividerInset = size === "lg" ? "10px" : "8px";
+  const leftLabelFontSize = size === "sm" ? "11px" : size === "lg" ? "13px" : "12px";
 
   return (
     <motion.div
@@ -645,7 +646,7 @@ export function SliderProgress({
             left: "12px",
             top: "50%",
             transform: "translateY(-50%)",
-            fontSize: "12px",
+            fontSize: leftLabelFontSize,
             fontFamily: 'Inter, system-ui, sans-serif',
             fontWeight: 500,
             color: "#979797",
