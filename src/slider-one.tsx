@@ -505,6 +505,7 @@ export function SliderProgress({
     size === "sm" ? "10px" : size === "lg" ? "16px" : "12px";
   const innerRadius =
     size === "sm" ? "8px" : size === "lg" ? "14px" : "10px";
+  const dividerInset = size === "lg" ? "10px" : "8px";
 
   return (
     <motion.div
@@ -572,8 +573,8 @@ export function SliderProgress({
             aria-hidden="true"
             className="absolute rounded-full"
             style={{
-              top: "8px",
-              bottom: "8px",
+              top: dividerInset,
+              bottom: dividerInset,
               right: "8px",
               width: "2px",
               background: "#c4c4c4",
@@ -595,8 +596,8 @@ export function SliderProgress({
           aria-hidden="true"
           className="absolute rounded-full"
           style={{
-            top: "8px",
-            bottom: "8px",
+            top: dividerInset,
+            bottom: dividerInset,
             // Component'in solu (0px) ile "Radius" yazısının solu (10px) arasında tam ortada: 5px.
             left: "5px",
             width: "2px",
@@ -618,8 +619,8 @@ export function SliderProgress({
           aria-hidden="true"
           className="absolute rounded-full"
           style={{
-            top: "8px",
-            bottom: "8px",
+            top: dividerInset,
+            bottom: dividerInset,
             // Sağdaki sayı span'i right: 12px; component'in sağı 0px → orta nokta 6px.
             right: "6px",
             width: "2px",
