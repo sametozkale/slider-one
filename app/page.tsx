@@ -122,7 +122,7 @@ const CUSTOMIZATION_CODE = `.slider-demo {
 
 export default function Home() {
   const [radius, setRadius] = useState(30);
-  const [smallValue, setSmallValue] = useState(16);
+  const [smallValue, setSmallValue] = useState(24);
   const [mediumValue, setMediumValue] = useState(30);
   const [largeValue, setLargeValue] = useState(46);
   const [glow, setGlow] = useState(58);
