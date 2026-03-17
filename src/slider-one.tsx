@@ -333,6 +333,7 @@ export function SliderTrack({
     step,
     value,
     disabled,
+    size,
     sizeConfig,
     isFocused,
     isHovered,
@@ -347,6 +348,7 @@ export function SliderTrack({
     variant,
   } = useSliderContext("SliderTrack");
   const isMicro = variant === "micro";
+  const rightValueFontSize = size === "sm" ? "11px" : size === "lg" ? "13px" : "12px";
 
   const handleInputChange: InputHTMLAttributes<HTMLInputElement>["onChange"] = (
     event
@@ -449,7 +451,7 @@ export function SliderTrack({
             right: "12px",
             top: "50%",
             transform: "translateY(-50%)",
-            fontSize: "12px",
+            fontSize: rightValueFontSize,
             fontFamily: 'Inter, system-ui, sans-serif',
             color: "#979797",
             pointerEvents: "none",
