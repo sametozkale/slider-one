@@ -133,7 +133,7 @@ You can also pass the same values in a typed way via `tokens`:
 
 ## Links
 
-- [Demo](https://slider-one.vercel.app/)
+- [Demo](https://slider-one-component.vercel.app/)
 - [GitHub](https://github.com/sametozkale/slider-one)
 - [npm](https://www.npmjs.com/package/@sametozkale/slider-one)
 
