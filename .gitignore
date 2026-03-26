@@ -27,6 +27,7 @@
 .cursor/
 .DS_Store
 *.pem
+public/metadata.original.jpg
 
 # debug
 npm-debug.log*
