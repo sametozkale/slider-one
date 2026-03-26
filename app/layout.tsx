@@ -9,12 +9,16 @@ const inter = Inter({
 
 const BASE_URL = "https://slider-one.vercel.app";
 const OG_IMAGE_PATH = "/metadata.jpg";
+const OG_IMAGE_URL = new URL(OG_IMAGE_PATH, BASE_URL).toString();
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: "Slider One | Animated React Slider Component",
   description:
     "A smooth, animated React slider with tactile motion, dynamic progress, and a floating value label.",
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "React slider",
     "range input",
@@ -40,9 +44,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: OG_IMAGE_PATH,
+        url: OG_IMAGE_URL,
         width: 1200,
         height: 630,
+        type: "image/jpeg",
         alt: "Slider One – Animated React Slider Component",
       },
     ],
@@ -52,7 +57,7 @@ export const metadata: Metadata = {
     title: "Slider One | Animated React Slider Component",
     description:
       "A smooth, animated React slider with tactile motion, dynamic progress, and a floating value label.",
-    images: [OG_IMAGE_PATH],
+    images: [OG_IMAGE_URL],
   },
 };
 
